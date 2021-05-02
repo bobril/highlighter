@@ -1,0 +1,37 @@
+{
+  "name": "@bobril/highligher",
+  "version": "0.1.0",
+  "description": "Syntax highligher component for Bobril",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobril/highligher.git"
+  },
+  "keywords": [
+    "bobril",
+    "syntax",
+    "highlight"
+  ],
+  "prettier": {
+    "tabWidth": 4,
+    "printWidth": 120
+  },
+  "author": "Bobris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobril/highligher/issues"
+  },
+  "homepage": "https://github.com/bobril/highligher#readme",
+  "dependencies": {
+    "bobril": "*",
+    "highlight.js": "~11.0.0-alpha1"
+  },
+  "devDependencies": {
+    "css": "^2.2.1",
+    "to-camel-case": "^1.0.0"
+  },
+  "scripts": {
+    "build-languages": "node ./scripts/build-languages-highlightjs.js",
+    "build-styles": "node ./scripts/build-stylesheets-highlightjs.js"
+  }
+}
