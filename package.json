@@ -1,11 +1,11 @@
 {
-  "name": "@bobril/highligher",
+  "name": "@bobril/highlighter",
   "version": "0.1.0",
-  "description": "Syntax highligher component for Bobril",
+  "description": "Syntax highlighter component for Bobril",
   "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobril/highligher.git"
+    "url": "git+https://github.com/bobril/highlighter.git"
   },
   "keywords": [
     "bobril",
@@ -19,9 +19,9 @@
   "author": "Bobris",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bobril/highligher/issues"
+    "url": "https://github.com/bobril/highlighter/issues"
   },
-  "homepage": "https://github.com/bobril/highligher#readme",
+  "homepage": "https://github.com/bobril/highlighter#readme",
   "dependencies": {
     "bobril": "*",
     "highlight.js": "~11.0.0-alpha1"
