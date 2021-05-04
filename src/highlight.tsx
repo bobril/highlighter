@@ -11,14 +11,14 @@ export function assembleLineNumberStyles(largestLineNumber: number) {
         display: "inline-block",
         minWidth: getEmWidthOfNumber(largestLineNumber),
         paddingRight: "0.8em",
-        textAlign: "right",
+        textAlign: b.ieVersion() ? "right" : "end",
         userSelect: "none",
     };
 }
 
-type HighlightStyle = Record<string, b.IBobrilStyles>;
+export type HighlightStyle = Record<string, b.IBobrilStyles>;
 
-interface IHighligherData {
+export interface IHighligherData {
     language?: string;
     style?: HighlightStyle;
     showLineNumbers?: boolean;
