@@ -2,6 +2,10 @@
 
 Bobril component for syntax highlighting of source code. For actual work uses highlight.js.
 
+[![npm version](https://badge.fury.io/js/%40bobril%2Fhighlighter.svg)](https://badge.fury.io/js/%40bobril%2Fhighlighter)
+
+[Demo](https://bobril.github.io/highligher)
+
 ## How to use
 
 ```tsx

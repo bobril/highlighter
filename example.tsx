@@ -12,7 +12,9 @@ b.init(() => {
     var startLineNumber = b.useState("1");
     return (
         <>
-            <h1>Example for highligher</h1>
+            <h1>
+                Demo page for <a href="https://github.com/bobril/highlighter">@bobril/highlighter</a>
+            </h1>
             <div>
                 Style: {styleNames[styleIdx()]}{" "}
                 <button

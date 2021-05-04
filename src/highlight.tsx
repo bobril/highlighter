@@ -51,7 +51,7 @@ function defaultNumberStyle(largestLineNumber: number, style: HighlightStyle) {
 export function Highlighter(data: IHighligherData) {
     var style = data.style || (defaultStyle as HighlightStyle);
     var language = data.language;
-    var showLineNumbers = data.showLineNumbers || true;
+    var showLineNumbers = data.showLineNumbers ?? true;
     var startingLineNumber = data.startingLineNumber ?? 1;
     if (isNaN(startingLineNumber)) startingLineNumber = 1;
     var lineStyle = data.lineStyle || (showLineNumbers ? displayFlex : noop);
