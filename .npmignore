@@ -4,4 +4,5 @@ cSpell.json
 package-lock.json
 example.tsx
 scripts/
+dist/
 .gitattributes
