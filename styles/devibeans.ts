@@ -39,7 +39,7 @@ export default {
     "meta": {
         "color": "#0087ff"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#0087ff"
     },
     "operator": {},
@@ -98,7 +98,7 @@ export default {
     "attribute": {
         "color": "#ffd75f"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#558b2f"
     },
     "string": {

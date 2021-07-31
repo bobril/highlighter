@@ -91,7 +91,7 @@ export default {
     "function": {
         "color": "#C0C0C0"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#C0C0C0"
     },
     "meta": {

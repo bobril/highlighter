@@ -78,7 +78,7 @@ export default {
     "meta": {
         "color": "#fb9e00"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#fb9e00"
     },
     "comment": {

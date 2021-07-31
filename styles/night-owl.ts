@@ -55,10 +55,10 @@ export default {
     "meta": {
         "color": "#82aaff"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#82aaff"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#ecc48d"
     },
     "section": {

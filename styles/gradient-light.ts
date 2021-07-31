@@ -59,7 +59,7 @@ export default {
         "color": "#7D2801",
         "fontWeight": "bold"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#7D2801"
     },
     "symbol": {

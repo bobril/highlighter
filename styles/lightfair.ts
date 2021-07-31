@@ -26,7 +26,7 @@ export default {
     "selector-tag": {
         "fontWeight": "bold"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "fontWeight": "bold"
     },
     "doctag": {
@@ -100,7 +100,7 @@ export default {
     "addition": {
         "color": "#25c6c6"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#4d99bf"
     },
     "emphasis": {

@@ -6,7 +6,12 @@ export default {
     "meta": {
         "fontWeight": "bold",
         "fontStyle": "italic",
-        "color": "#642"
+        "color": "#269"
+    },
+    "meta-string": {
+        "fontWeight": "bold",
+        "fontStyle": "italic",
+        "color": "#48b"
     },
     "comment": {
         "fontStyle": "italic",
@@ -23,6 +28,9 @@ export default {
     "keyword": {
         "color": "#808"
     },
+    "built": {
+        "color": "#808"
+    },
     "attr": {
         "fontWeight": "bold",
         "color": "#000"
@@ -31,16 +39,10 @@ export default {
         "fontWeight": "normal",
         "color": "#00f"
     },
-    "variable": {
-        "color": "#477"
-    },
-    "template-variable": {
-        "color": "#477"
-    },
     "code": {
         "color": "#00f"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#00f"
     },
     "number": {
@@ -61,22 +63,27 @@ export default {
     "bullet": {
         "color": "#f40"
     },
-    "built": {
+    "variable": {
         "color": "#f40"
     },
-    "section": {
-        "color": "#642"
+    "template-variable": {
+        "color": "#f40"
     },
     "class title": {
+        "fontWeight": "bold",
         "color": "#639"
     },
     "type": {
+        "fontWeight": "bold",
         "color": "#639"
     },
     "function title": {
         "color": "#000"
     },
     "subst": {
+        "color": "#000"
+    },
+    "tag": {
         "color": "#000"
     },
     "formula": {
@@ -89,11 +96,26 @@ export default {
     "deletion": {
         "backgroundColor": "#fbb"
     },
+    "section": {
+        "fontWeight": "bold",
+        "color": "#48b"
+    },
     "selector-id": {
-        "color": "#964"
+        "fontWeight": "bold",
+        "color": "#48b"
     },
     "selector-class": {
-        "color": "#964"
+        "fontWeight": "bold",
+        "color": "#48b"
+    },
+    "selector-pseudo": {
+        "fontWeight": "bold",
+        "color": "#48b",
+        "fontStyle": "italic"
+    },
+    "selector-tag": {
+        "fontWeight": "bold",
+        "color": "#48b"
     },
     "doctag": {
         "fontWeight": "bold"

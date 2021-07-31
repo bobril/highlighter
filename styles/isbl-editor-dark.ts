@@ -22,7 +22,7 @@ export default {
         "color": "#f0f0f0",
         "fontWeight": "bold"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#f0f0f0",
         "fontWeight": "bold"
     },
@@ -113,7 +113,7 @@ export default {
     "meta": {
         "color": "#1f7199"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#4d99bf"
     },
     "emphasis": {

@@ -1,8 +1,5 @@
 export default {
     "$": {
-        "display": "block",
-        "overflowX": "auto",
-        "padding": "1em",
         "background": "#F0F0F0",
         "color": "#444"
     },
@@ -35,7 +32,7 @@ export default {
     "selector-tag": {
         "fontWeight": "bold"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "fontWeight": "bold"
     },
     "doctag": {
@@ -118,7 +115,7 @@ export default {
     "meta": {
         "color": "#1f7199"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#4d99bf"
     },
     "emphasis": {

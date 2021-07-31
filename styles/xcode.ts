@@ -42,7 +42,7 @@ export default {
     "string": {
         "color": "#c41a16"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#c41a16"
     },
     "regexp": {

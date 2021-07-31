@@ -50,7 +50,7 @@ export default {
     "attribute": {
         "color": "#50a14f"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#50a14f"
     },
     "attr": {

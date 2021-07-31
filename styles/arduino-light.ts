@@ -81,7 +81,7 @@ export default {
     "comment": {
         "color": "rgba(149,165,166,.8)"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#728E00"
     },
     "meta": {

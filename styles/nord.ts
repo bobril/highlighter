@@ -104,10 +104,10 @@ export default {
     "meta": {
         "color": "#D08770"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#5E81AC"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#8FBCBB"
     },
     "attr": {

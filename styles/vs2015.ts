@@ -34,7 +34,7 @@ export default {
     "string": {
         "color": "#D69D85"
     },
-    "meta-string": {
+    "meta string": {
         "color": "#D69D85"
     },
     "regexp": {
@@ -72,7 +72,7 @@ export default {
     "meta": {
         "color": "#9B9B9B"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#9B9B9B"
     },
     "tag": {

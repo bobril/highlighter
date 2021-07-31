@@ -3,6 +3,9 @@ export default {
         "color": "#2f3337",
         "background": "#f6f6f6"
     },
+    "subst": {
+        "color": "#2f3337"
+    },
     "comment": {
         "color": "#656e77"
     },
@@ -12,22 +15,13 @@ export default {
     "selector-tag": {
         "color": "#015692"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#015692"
     },
     "doctag": {
         "color": "#015692"
     },
     "section": {
-        "color": "#015692"
-    },
-    "selector-class": {
-        "color": "#015692"
-    },
-    "meta": {
-        "color": "#015692"
-    },
-    "selector-pseudo": {
         "color": "#015692"
     },
     "attr": {
@@ -54,14 +48,8 @@ export default {
     "template-tag": {
         "color": "#b75501"
     },
-    "built": {
-        "color": "#b75501"
-    },
-    "title": {
-        "color": "#b75501"
-    },
-    "literal": {
-        "color": "#b75501"
+    "selector-class": {
+        "color": "#015692"
     },
     "string": {
         "color": "#54790d"
@@ -84,14 +72,29 @@ export default {
     "selector-attr": {
         "color": "#54790d"
     },
-    "meta-string": {
-        "color": "#54790d"
+    "meta": {
+        "color": "#015692"
+    },
+    "selector-pseudo": {
+        "color": "#015692"
+    },
+    "built": {
+        "color": "#b75501"
+    },
+    "title": {
+        "color": "#b75501"
+    },
+    "literal": {
+        "color": "#b75501"
     },
     "bullet": {
         "color": "#535a60"
     },
     "code": {
         "color": "#535a60"
+    },
+    "meta string": {
+        "color": "#54790d"
     },
     "deletion": {
         "color": "#c02d2e"
@@ -104,5 +107,11 @@ export default {
     },
     "strong": {
         "fontWeight": "bold"
-    }
+    },
+    "formula": {},
+    "operator": {},
+    "params": {},
+    "property": {},
+    "punctuation": {},
+    "tag": {}
 }

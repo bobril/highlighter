@@ -59,7 +59,7 @@ export default {
         "color": "#17fc95",
         "fontWeight": "bold"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#17fc95"
     },
     "symbol": {

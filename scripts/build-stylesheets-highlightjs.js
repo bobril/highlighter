@@ -38,6 +38,9 @@ function simplifyClass(c) {
     if (c == ".hljs a:focus") return undefined;
     if (c == ".hljs a:hover") return undefined;
     if (c == ".hljs-title.class_") return undefined;
+    if (c == ".hljs mark") return undefined;
+    if (c == "pre code.hljs") return undefined;
+    if (c == "code.hljs") return undefined;
     if (
         c == ".hljs::selection" ||
         c == ".hljs span::selection" ||

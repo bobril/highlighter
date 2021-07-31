@@ -3,6 +3,9 @@ export default {
         "color": "#ffffff",
         "background": "#1c1b1b"
     },
+    "subst": {
+        "color": "#ffffff"
+    },
     "comment": {
         "color": "#999999"
     },
@@ -12,7 +15,7 @@ export default {
     "selector-tag": {
         "color": "#88aece"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#88aece"
     },
     "doctag": {
@@ -21,20 +24,11 @@ export default {
     "section": {
         "color": "#88aece"
     },
-    "selector-class": {
-        "color": "#88aece"
-    },
-    "meta": {
-        "color": "#88aece"
-    },
-    "selector-pseudo": {
-        "color": "#88aece"
-    },
     "attr": {
         "color": "#88aece"
     },
     "attribute": {
-        "color": "v#c59bc1"
+        "color": "#c59bc1"
     },
     "name": {
         "color": "#f08d49"
@@ -54,14 +48,8 @@ export default {
     "template-tag": {
         "color": "#f08d49"
     },
-    "built": {
-        "color": "#f08d49"
-    },
-    "title": {
-        "color": "#f08d49"
-    },
-    "literal": {
-        "color": "#f08d49"
+    "selector-class": {
+        "color": "#88aece"
     },
     "string": {
         "color": "#b5bd68"
@@ -84,14 +72,29 @@ export default {
     "selector-attr": {
         "color": "#b5bd68"
     },
-    "meta-string": {
-        "color": "#b5bd68"
+    "meta": {
+        "color": "#88aece"
+    },
+    "selector-pseudo": {
+        "color": "#88aece"
+    },
+    "built": {
+        "color": "#f08d49"
+    },
+    "title": {
+        "color": "#f08d49"
+    },
+    "literal": {
+        "color": "#f08d49"
     },
     "bullet": {
         "color": "#cccccc"
     },
     "code": {
         "color": "#cccccc"
+    },
+    "meta string": {
+        "color": "#b5bd68"
     },
     "deletion": {
         "color": "#de7176"
@@ -104,5 +107,11 @@ export default {
     },
     "strong": {
         "fontWeight": "bold"
-    }
+    },
+    "formula": {},
+    "operator": {},
+    "params": {},
+    "property": {},
+    "punctuation": {},
+    "tag": {}
 }

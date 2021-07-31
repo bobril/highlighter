@@ -48,7 +48,7 @@ export default {
         "color": "#006666",
         "fontWeight": "bold"
     },
-    "meta-keyword": {
+    "meta keyword": {
         "color": "#006666",
         "fontWeight": "bold"
     },

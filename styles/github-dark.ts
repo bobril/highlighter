@@ -1,120 +1,120 @@
 export default {
     "$": {
-        "color": "#24292e",
-        "background": "#ffffff"
+        "color": "#c9d1d9",
+        "background": "#0d1117"
     },
     "doctag": {
-        "color": "#d73a49"
+        "color": "#ff7b72"
     },
     "keyword": {
-        "color": "#d73a49"
+        "color": "#ff7b72"
     },
     "meta keyword": {
-        "color": "#d73a49"
+        "color": "#ff7b72"
     },
     "template-tag": {
-        "color": "#d73a49"
+        "color": "#ff7b72"
     },
     "template-variable": {
-        "color": "#d73a49"
+        "color": "#ff7b72"
     },
     "type": {
-        "color": "#d73a49"
+        "color": "#ff7b72"
     },
     "variable": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "title": {
-        "color": "#6f42c1"
+        "color": "#d2a8ff"
     },
     "attr": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "attribute": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "literal": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "meta": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "number": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "operator": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "selector-attr": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "selector-class": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "selector-id": {
-        "color": "#005cc5"
+        "color": "#79c0ff"
     },
     "regexp": {
-        "color": "#032f62"
+        "color": "#a5d6ff"
     },
     "string": {
-        "color": "#032f62"
+        "color": "#a5d6ff"
     },
     "meta string": {
-        "color": "#032f62"
+        "color": "#a5d6ff"
     },
     "built": {
-        "color": "#e36209"
+        "color": "#ffa657"
     },
     "symbol": {
-        "color": "#e36209"
+        "color": "#ffa657"
     },
     "comment": {
-        "color": "#6a737d"
+        "color": "#8b949e"
     },
     "code": {
-        "color": "#6a737d"
+        "color": "#8b949e"
     },
     "formula": {
-        "color": "#6a737d"
+        "color": "#8b949e"
     },
     "name": {
-        "color": "#22863a"
+        "color": "#7ee787"
     },
     "quote": {
-        "color": "#22863a"
+        "color": "#7ee787"
     },
     "selector-tag": {
-        "color": "#22863a"
+        "color": "#7ee787"
     },
     "selector-pseudo": {
-        "color": "#22863a"
+        "color": "#7ee787"
     },
     "subst": {
-        "color": "#24292e"
+        "color": "#c9d1d9"
     },
     "section": {
-        "color": "#005cc5",
+        "color": "#1f6feb",
         "fontWeight": "bold"
     },
     "bullet": {
-        "color": "#735c0f"
+        "color": "#f2cc60"
     },
     "emphasis": {
-        "color": "#24292e",
+        "color": "#c9d1d9",
         "fontStyle": "italic"
     },
     "strong": {
-        "color": "#24292e",
+        "color": "#c9d1d9",
         "fontWeight": "bold"
     },
     "addition": {
-        "color": "#22863a",
-        "backgroundColor": "#f0fff4"
+        "color": "#aff5b4",
+        "backgroundColor": "#033a16"
     },
     "deletion": {
-        "color": "#b31d28",
-        "backgroundColor": "#ffeef0"
+        "color": "#ffdcd7",
+        "backgroundColor": "#67060c"
     },
     "char": {},
     "link": {},
