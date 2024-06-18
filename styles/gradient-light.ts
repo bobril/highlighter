@@ -1,6 +1,7 @@
 export default {
     "$": {
-        "background": "linear-gradient(142deg, rgba(255,253,141,1) 0%, rgba(252,183,255,1) 35%, rgba(144,236,255,1) 100%)",
+        "backgroundColor": "#f9ccff",
+        "backgroundImage": "linear-gradient(295deg, #f9ccff 0%, #e6bbf9 11%, #9ec6f9 32%, #55e6ee 60%, #91f5d1 74%, #f9ffbf 98%)",
         "color": "#250482"
     },
     "subtr": {
@@ -78,7 +79,7 @@ export default {
         "color": "#7F0096"
     },
     "string": {
-        "color": "#38c0ff"
+        "color": "#2681ab"
     },
     "attribute": {
         "color": "#296562"

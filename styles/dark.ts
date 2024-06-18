@@ -1,7 +1,7 @@
 export default {
     "$": {
         "color": "#ddd",
-        "background": "#444"
+        "background": "#303030"
     },
     "keyword": {
         "color": "white",
@@ -63,16 +63,16 @@ export default {
         "color": "#d88"
     },
     "comment": {
-        "color": "#777"
+        "color": "#979797"
     },
     "quote": {
-        "color": "#777"
+        "color": "#979797"
     },
     "deletion": {
-        "color": "#777"
+        "color": "#979797"
     },
     "meta": {
-        "color": "#777"
+        "color": "#979797"
     },
     "doctag": {
         "fontWeight": "bold"

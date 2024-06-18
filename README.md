@@ -6,6 +6,8 @@ Bobril component for syntax highlighting of source code. For actual work uses hi
 
 [Demo](https://bobril.com/highlighter/)
 
+Updated to use version 11.9.0 of highlight.js.
+
 ## How to use
 
 ```tsx

@@ -13,12 +13,10 @@ fs.readdir(path.join(__dirname, "../node_modules/highlight.js/styles"), (err, fi
         throw err;
     }
 
-    files.forEach((file) => {
-        if (file.includes(".css")) {
-            createJavascriptStyleSheet(file);
-        }
+    const onlyCSSFiles = files.filter((file) => !file.includes(".min.css") && file.includes(".css"));
+    onlyCSSFiles.forEach((file) => {
+        createJavascriptStyleSheet(file);
     });
-    const onlyCSSFiles = files.filter((file) => file.includes(".css"));
     const availableStyleNames = onlyCSSFiles.map((file) =>
         file.split(".css")[0] === "default" ? "default-style" : file.split(".css")[0]
     );
@@ -43,6 +41,7 @@ function simplifyClass(c) {
     if (c == "code.hljs") return undefined;
     if (
         c == ".hljs::selection" ||
+        c == ".hljs ::selection" ||
         c == ".hljs span::selection" ||
         c == ".hljs::-moz-selection" ||
         c == ".hljs span::-moz-selection"

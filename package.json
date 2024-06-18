@@ -1,37 +1,38 @@
 {
-  "name": "@bobril/highlighter",
-  "version": "1.0.1",
-  "description": "Syntax highlighter component for Bobril",
-  "main": "index.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bobril/highlighter.git"
-  },
-  "keywords": [
-    "bobril",
-    "syntax",
-    "highlight"
-  ],
-  "prettier": {
-    "tabWidth": 4,
-    "printWidth": 120
-  },
-  "author": "Bobris",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bobril/highlighter/issues"
-  },
-  "homepage": "https://github.com/bobril/highlighter#readme",
-  "dependencies": {
-    "bobril": "*",
-    "highlight.js": "~11.0.1"
-  },
-  "devDependencies": {
-    "css": "^2.2.1",
-    "to-camel-case": "^1.0.0"
-  },
-  "scripts": {
-    "build-languages": "node ./scripts/build-languages-highlightjs.js",
-    "build-styles": "node ./scripts/build-stylesheets-highlightjs.js"
-  }
+    "name": "@bobril/highlighter",
+    "version": "1.1.0",
+    "description": "Syntax highlighter component for Bobril",
+    "main": "index.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bobril/highlighter.git"
+    },
+    "keywords": [
+        "bobril",
+        "syntax",
+        "highlight"
+    ],
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120
+    },
+    "author": "Bobris",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bobril/highlighter/issues"
+    },
+    "homepage": "https://github.com/bobril/highlighter#readme",
+    "dependencies": {
+        "bobril": "*",
+        "highlight.js": "~11.9.0"
+    },
+    "devDependencies": {
+        "css": "^2.2.1",
+        "to-camel-case": "^1.0.0",
+        "typescript": "^5.4.5"
+    },
+    "scripts": {
+        "build-languages": "node ./scripts/build-languages-highlightjs.js",
+        "build-styles": "node ./scripts/build-stylesheets-highlightjs.js"
+    }
 }

@@ -1,6 +1,6 @@
 export default {
     "$": {
-        "background": "#F0F0F0",
+        "background": "#F3F3F3",
         "color": "#444"
     },
     "subst": {},
@@ -9,7 +9,7 @@ export default {
     "property": {},
     "params": {},
     "comment": {
-        "color": "#888888"
+        "color": "#697070"
     },
     "tag": {
         "color": "#444a"
@@ -74,31 +74,31 @@ export default {
         "fontWeight": "bold"
     },
     "regexp": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "symbol": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "variable": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "template-variable": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "link": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "selector-attr": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "operator": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "selector-pseudo": {
-        "color": "#BC6060"
+        "color": "#ab5656"
     },
     "literal": {
-        "color": "#78A960"
+        "color": "#695"
     },
     "built": {
         "color": "#397300"
@@ -116,7 +116,7 @@ export default {
         "color": "#1f7199"
     },
     "meta string": {
-        "color": "#4d99bf"
+        "color": "#38a"
     },
     "emphasis": {
         "fontStyle": "italic"

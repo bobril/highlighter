@@ -1,4 +1,4 @@
-import high from "highlight.js/es/core";
+import high from "highlight.js/lib/core";
 import type { Emitter, LanguageFn } from "highlight.js";
 
 export type StyledText = { text: string; style: undefined | string | string[] };
@@ -147,9 +147,9 @@ class TreeEmitter implements Emitter {
         this.closeNode();
     }
 
-    addSublanguage(other: TreeEmitter, name?: string) {
+    __addSublanguage(other: Emitter, name: string) {
         var current = this.stack[this.stack.length - 1];
-        var results = other.root.children;
+        var results = (other as unknown as TreeEmitter).root.children;
 
         if (name) {
             current.children.push({
@@ -179,6 +179,10 @@ class TreeEmitter implements Emitter {
         this.stack.pop();
     }
     closeAllNodes() {}
+
+    startScope(name: string): void {}
+    endScope(): void {}
+
     finalize() {}
     toHTML() {
         return "";
