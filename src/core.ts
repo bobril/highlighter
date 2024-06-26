@@ -180,7 +180,7 @@ class TreeEmitter implements Emitter {
     }
     closeAllNodes() {}
 
-    startScope(name: string): void {}
+    startScope(_name: string): void {}
     endScope(): void {}
 
     finalize() {}
