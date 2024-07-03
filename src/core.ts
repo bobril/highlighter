@@ -141,12 +141,6 @@ class TreeEmitter implements Emitter {
         }
     }
 
-    addKeyword(value: string, name: string) {
-        this.openNode(name);
-        this.addText(value);
-        this.closeNode();
-    }
-
     __addSublanguage(other: Emitter, name: string) {
         var current = this.stack[this.stack.length - 1];
         var results = (other as unknown as TreeEmitter).root.children;
@@ -180,8 +174,13 @@ class TreeEmitter implements Emitter {
     }
     closeAllNodes() {}
 
-    startScope(_name: string): void {}
-    endScope(): void {}
+    startScope(name: string): void {
+        this.openNode(name);
+    }
+    
+    endScope(): void {
+        this.closeNode();
+    }
 
     finalize() {}
     toHTML() {
