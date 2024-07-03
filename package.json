@@ -1,6 +1,6 @@
 {
     "name": "@bobril/highlighter",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Syntax highlighter component for Bobril",
     "main": "index.ts",
     "repository": {
