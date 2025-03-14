@@ -11,7 +11,7 @@ export function assembleLineNumberStyles(largestLineNumber: number) {
         display: "inline-block",
         minWidth: getEmWidthOfNumber(largestLineNumber),
         paddingRight: "0.8em",
-        textAlign: b.ieVersion() ? "right" : "end",
+        textAlign: "end",
         userSelect: "none",
     };
 }

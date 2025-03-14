@@ -26,7 +26,16 @@
     "target": "es2019",
     "resolveJsonModule": true
   },
+  "files": [
+    "index.ts",
+    "/Users/borisletocha/Research/@bobril/highlighter/example.tsx"
+  ],
   "include": [
-    "**/*"
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.d.ts",
+    "**/*Spec.ts",
+    "**/*Spec.tsx",
+    "**/*Spec.d.ts"
   ]
 }
